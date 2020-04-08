@@ -8,4 +8,8 @@ class Teacher < User
     @last_name = last_name
   end
 
+  def teach
+    KNOWLEDGE.sample
+  end
+
 end
