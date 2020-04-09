@@ -5,7 +5,7 @@ class Student < User
   end
 
   def learn(proverb)
-    @knowldge << proverb
+    @knowledge << proverb
   end
 
   def knowledge
